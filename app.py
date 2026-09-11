@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="Weather App", page_icon="🌤️")
 
 st.title("🌤️ Real-Time Weather App")
-st.write("Apne city ka naam enter karke live weather check karein!")
+st.write("Enter your city name to check the live weather!")
 
 # User Input
 city = st.text_input("City Name:", "Lahore")
