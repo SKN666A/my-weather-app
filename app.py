@@ -4,7 +4,7 @@ import requests
 # Page Configuration
 st.set_page_config(page_title="Weather App", page_icon="🌤️")
 
-st.title("🌤️ Real-Time Weather App")
+st.title("👦 Real-Time Weather App")
 st.write("Enter your city name to check the live weather!")
 
 # User Input
