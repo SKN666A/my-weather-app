@@ -8,7 +8,7 @@ st.title("👦 Real-Time Weather App")
 st.write("Enter your city name to check the live weather!")
 
 # User Input
-city = st.text_input("City Name:", "Lahore")
+city = st.text_input("City Name:", "Multan")
 
 # Secure API Key fetching using st.secrets
 api_key = st.secrets.get("OPENWEATHER_API_KEY")
